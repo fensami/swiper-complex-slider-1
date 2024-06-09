@@ -1,0 +1,50 @@
+@use "./autoprefixer/autoprefixer" as *;
+@use "./variables/variables" as *;
+
+
+@media (min-width: 575px) {
+  .trending-pagination-wrapper {
+    margin-left: 0;
+  }
+  .trending-pagination-wrapper {
+    .pagination-icon-right {
+      display: block;
+    }
+
+    .pagination-icon-left {
+      display: block;
+    }
+  }
+}
+
+@media (min-width: 767px) {
+
+}
+
+@media (min-width: 991px) {
+  .tranding-stories-card {
+
+    &.v2 {
+      margin-top: 122px;
+    }
+  }
+}
+
+@media (min-width: 1199px) {
+  .tranding-stories-card {
+
+    .stories-card-img {
+      width: 415px;
+      min-height: 535px;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .tranding-stories-card {
+    .stories-card-icon {
+      bottom: -16px;
+      left: -66px;
+    }
+  }
+}

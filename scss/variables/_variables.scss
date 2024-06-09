@@ -1,0 +1,41 @@
+/* =================
+    Theme Base
+   =================*/
+
+:root {
+    --color-primary: #FA1AE4;
+    --color-secondary: #000D38;
+    --color-paragraph: #7B7E86;
+    --color-white: #ffffff;
+    --color-black: #000;
+    --color-fashion: #AC27C4;
+    --color-musics: #FD3A98;
+    --color-sports: #213873;
+    --color-helth: #078871;
+    --color-sculpture: #FE6741;
+    --color-advacer: #1501FF;
+    --color-political: #F00;
+    --color-animal: #1F7E34;
+    --color-travel: #F93;
+    --title-font: "Playfair Display", serif;
+    --body-font: "Cabin", sans-serif;
+  }
+  
+//   Color
+  $color-primary: var(--color-primary);
+  $color-secondary: var(--color-secondary);
+  $color-paragraph: var(--color-paragraph);
+  $color-white: var(--color-white);
+  $color-black: var(--color-black);
+  $color-fashion: var(--color-fashion);
+  $color-musics: var(--color-musics);
+  $color-sports: var(--color-sports);
+  $color-helth: var(--color-helth);
+  $color-sculpture: var(--color-sculpture);
+  $color-advacer: var(--color-advacer);
+  $color-political: var(--color-political);
+  $color-animal: var(--color-animal);
+  $color-travel: var(--color-travel);
+  $title-font: var(--title-font);
+  $body-font: var(--body-font);
+
